@@ -7,10 +7,10 @@ User:
 
 * UID >> a unique ID to distinguish each user
 * Name 
-* Profile Picture //  a url to the image source
-* Contacts
-* Chats >> a thread of chats associated to each contact in the user's contact list
-* Status
+* Profile Picture >>  a url to the image source
+* users >> a list of contacts associated to each user
+* Chats >> a thread of chats associated to each contact in the user's contact list , these chats are represented as an array object of MIDs
+* Status 
  
  // A Chat Model has the following stats.
  
