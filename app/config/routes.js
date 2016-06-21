@@ -19,7 +19,7 @@ var routes = (
     <Route path='/' component={Main}>
       <IndexRoute header='Welcome to Tunnel-me'component={LogContainer}/>
       <Route path='signup' header='Tunnel-me' component={Signup}/>
-      <Route path='chatcontainer' header='Tunnel-me' component={ChatContainer}/>
+      <Route path='chat' header='Tunnel-me' component={ChatContainer}/>
   
     </Route>
   </Router>

@@ -1,0 +1,36 @@
+// the purpose of this file is to simplify,classify and model each entity in my application
+
+
+// A User Model has the following stats.
+
+User:
+
+* UID >> a unique ID to distinguish each user
+* Name 
+* Profile Picture //  a url to the image source
+* Contacts
+* Chats >> a thread of chats associated to each contact in the user's contact list
+* Status
+ 
+ // A Chat Model has the following stats.
+ 
+ Chat:
+
+ * MID >> a message ID compromised of two 3 digit numbers seprated by a hyphen
+ * Contact ID >> a UID mapped to the contact the user is texting at the moment
+ * User ID >> a UID mapped to the User
+ * Time stamp
+ * Status 
+
+// A Model for the actions a user can take
+
+ Actions:
+
+ * a user can click on the contacts side bar to choose a contact to chat with.
+ * a user can send a text
+ * a user can delete a text
+ * a user can view another user's profile [ profile picture and status ]
+ * a user can change his profile picture
+ * a user can change his status
+ * a user can add a contact
+ * a user can delete a contact

@@ -52,7 +52,7 @@ var Log = React.createClass({
                                 </Link>
                                 </div>
                                 <div className="left-align">
-                                 <Link to='/chatcontainer'>
+                                 <Link to='/chat'>
                                 <button className="btn btn-large waves-effect waves-light" type="button" name="action">Test Me</button>
                                 </Link>
                                 </div>
